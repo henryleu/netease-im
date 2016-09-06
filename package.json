@@ -1,0 +1,21 @@
+{
+  "name": "nim-sdk",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "test": "mocha ./test"
+  },
+
+  "dependencies": {
+    "request": "^2.69.0"
+  },
+  "devDependencies": {
+    "bluebird": "^2.10.2",
+    "co": "^4.6.0",
+    "log4js": "0.6.36",
+    "mysequence": "1.0.4",
+
+    "mocha": "^2.4.5",
+    "chai": "^3.5.0"
+  }
+}
