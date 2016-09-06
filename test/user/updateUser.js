@@ -7,7 +7,7 @@ var codeDefs = require('../../lib/codeDefs');
 
 describe('createUser', function(){
 
-    describe('Succeed to create a user', function(){
+    describe('Succeed to create user', function(){
         // var accid = 'test-' + new Date().getTime();
         var accid = 'test-001';
         var name = accid;
