@@ -6,23 +6,18 @@ var nim = require('../sdk');
 var fixture = require('../fixture');
 var codeDefs = require('../../lib/codeDefs');
 
-describe.only('updateUser', function(){
+describe('refreshToken', function(){
 
-    describe('Succeed to update a user', function(){
-        var apple = fixture.userApple;
-
-        it('Update a brand new user', function(done){
-            var update = {
-                accid: apple.id,
-                token: apple.token,
-                props: JSON.stringify({type: 'test-updated'})
-            };
-            nim.updateUser(update, function(err, result){
-                err && console.error(err);
-                console.info(result);
-                assert.equal(result.code, codeDefs.OK.code);
-                done();
-            });
+    it('Succeed to refresh a user\'s token', function(done){
+        var durian = fixture.userDurian;
+        var form = {
+            accid: durian.id
+        };
+        nim.refreshToken(form, function(err, result){
+            err && console.error(err);
+            console.info(result);
+            assert.equal(result.code, codeDefs.OK.code);
+            done();
         });
     });
 
