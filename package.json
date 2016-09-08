@@ -1,45 +1,46 @@
 {
   "name": "netease-im",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "scripts": {
     "test": "node ./node_modules/mocha/bin/_mocha --timeout 10000 --ui bdd  --recursive ./test"
   },
-
   "author": {
     "name": "Henry Leu",
     "email": "henryleu@126.com",
     "url": "https://github.com/henryleu"
   },
-
   "repository": {
     "type": "https",
     "url": "https://github.com/henryleu/netease-im.git"
   },
-
   "bugs": {
     "url": "https://github.com/henryleu/netease-im/issues"
   },
-
   "licenses": [
     {
       "type": "MIT",
       "url": "https://github.com/henryleu/netease-im/raw/master/LICENSE"
     }
   ],
-
   "homepage": "https://github.com/henryleu/netease-im",
-
-  "keywords": ["netease", "im", "nim", "sdk", "server", "push", "notification",
-    "instance messaging", "social networking"],
-
+  "keywords": [
+    "netease",
+    "im",
+    "nim",
+    "sdk",
+    "server",
+    "push",
+    "notification",
+    "instance messaging",
+    "social networking"
+  ],
   "maintainers": [
     {
       "name": "henryleu",
       "email": "henryleu@126.com"
     }
   ],
-
   "dependencies": {
     "request": "^2.69.0"
   },
@@ -47,7 +48,6 @@
     "bluebird": "^2.10.2",
     "co": "^4.6.0",
     "log4js": "0.6.36",
-
     "mocha": "^2.4.5",
     "chai": "^3.5.0"
   }
