@@ -63,6 +63,6 @@ Contact
 * Email ([henryleu@126.com](mailto:henryleu@126.com))
 
 
-Any advice or question, contact me:
+Any advices or questions, contact me:
 
 ![henryleu's wechat](https://github.com/henryleu/netease-im/blob/master/kinglongslove.jpg)
