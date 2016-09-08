@@ -58,6 +58,11 @@ Contact
 -------
 
 * GitHub ([henryleu](http://github.com/henryleu))
-* Weixin ([kingkongslove](kingkongslove))
+* Wechat ([kingkongslove](https://github.com/henryleu/netease-im/blob/master/kinglongslove.jpg))
 * QQ ([1347653](1347653))
 * Email ([henryleu@126.com](mailto:henryleu@126.com))
+
+
+Any advice or question, contact me:
+
+![henryleu's wechat](https://github.com/henryleu/netease-im/blob/master/kinglongslove.jpg)
