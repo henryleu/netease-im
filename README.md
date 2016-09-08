@@ -58,5 +58,6 @@ Contact
 -------
 
 * GitHub ([henryleu](http://github.com/henryleu))
+* Weixin ([kingkongslove](kingkongslove))
 * QQ ([1347653](1347653))
 * Email ([henryleu@126.com](mailto:henryleu@126.com))
