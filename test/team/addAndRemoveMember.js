@@ -17,7 +17,7 @@ var updateCustomMode = Nim.updateCustomMode;
 var queryFlag = Nim.queryFlag;
 
 
-describe.only('addAndRemoveMember', function(){
+describe('addAndRemoveMember', function(){
     var apple = fixture.userApple;
     var banana = fixture.userBanana;
     var coconut = fixture.userCoconut;

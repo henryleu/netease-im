@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": false,
   "scripts": {
-    "test": "mocha ./test"
+    "test": "node ./node_modules/mocha/bin/_mocha --timeout 10000 --ui bdd  --recursive ./test"
   },
 
   "author": {
