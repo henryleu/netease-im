@@ -1,14 +1,14 @@
 ## netease-im
 
-Netease IM server-side SDK for node.js. using it, you can develop instant messaging Apps (iOS and Android) based on server side services in node.js 
+It is Netease IM server-side SDK for node.js. using it, you can develop instant messaging Apps (iOS and Android) backed by server side services in node.js 
 
-##Support APIs
+##Supported APIs
 - **User Account**: Create, delete, update, block and unblock user account. 
 - **Messaging**: Send many kinds of message to user or user list, also send system notification message.
 - **Group**: Create, delete, update and query teams, also add and remove members to/from team.
 - **Others**: coming soon.
 
-For more api information, you can reference [netease im api docs](http://dev.netease.im/docs?doc=server)
+For more api information, you can reference [Netease IM API Docs](http://dev.netease.im/docs?doc=server)
 
 ## Installation
 
@@ -47,7 +47,7 @@ npm install netease-im
 
 ## Tests & Examples
 
-For more example codes, see `ROOT/test`
+For more example code, see `netease-im/test`
 
 License
 -------
